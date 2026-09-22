@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>STALLONEE</title>
+<meta name="description" content="STALLONEE — Los Angeles based Italian DJ/Producer. Live sets, music, and booking." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- icon sprite -->
+<svg class="icon-sprite" aria-hidden="true" focusable="false">
+  <symbol id="icon-youtube" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></symbol>
+  <symbol id="icon-soundcloud" viewBox="0 0 24 24"><path d="M23.999 14.165c-.052 1.796-1.612 3.169-3.4 3.169h-8.18a.68.68 0 0 1-.675-.683V7.862a.747.747 0 0 1 .452-.724s.75-.513 2.333-.513a5.364 5.364 0 0 1 2.763.755 5.433 5.433 0 0 1 2.57 3.54c.282-.08.574-.121.868-.12.884 0 1.73.358 2.347.992s.948 1.49.922 2.373ZM10.721 8.421c.247 2.98.427 5.697 0 8.672a.264.264 0 0 1-.53 0c-.395-2.946-.22-5.718 0-8.672a.264.264 0 0 1 .53 0ZM9.072 9.448c.285 2.659.37 4.986-.006 7.655a.277.277 0 0 1-.55 0c-.331-2.63-.256-5.02 0-7.655a.277.277 0 0 1 .556 0Zm-1.663-.257c.27 2.726.39 5.171 0 7.904a.266.266 0 0 1-.532 0c-.38-2.69-.257-5.21 0-7.904a.266.266 0 0 1 .532 0Zm-1.647.77a26.108 26.108 0 0 1-.008 7.147.272.272 0 0 1-.542 0 27.955 27.955 0 0 1 0-7.147.275.275 0 0 1 .55 0Zm-1.67 1.769c.421 1.865.228 3.5-.029 5.388a.257.257 0 0 1-.514 0c-.21-1.858-.398-3.549 0-5.389a.272.272 0 0 1 .543 0Zm-1.655-.273c.388 1.897.26 3.508-.01 5.412-.026.28-.514.283-.54 0-.244-1.878-.347-3.54-.01-5.412a.283.283 0 0 1 .56 0Zm-1.668.911c.4 1.268.257 2.292-.026 3.572a.257.257 0 0 1-.514 0c-.241-1.262-.354-2.312-.023-3.572a.283.283 0 0 1 .563 0Z"/></symbol>
+  <symbol id="icon-spotify" viewBox="0 0 24 24"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></symbol>
+  <symbol id="icon-applemusic" viewBox="0 0 24 24"><path d="M23.994 6.124a9.23 9.23 0 00-.24-2.19c-.317-1.31-1.062-2.31-2.18-3.043a5.022 5.022 0 00-1.877-.726 10.496 10.496 0 00-1.564-.15c-.04-.003-.083-.01-.124-.013H5.986c-.152.01-.303.017-.455.026-.747.043-1.49.123-2.193.4-1.336.53-2.3 1.452-2.865 2.78-.192.448-.292.925-.363 1.408-.056.392-.088.785-.1 1.18 0 .032-.007.062-.01.093v12.223c.01.14.017.283.027.424.05.815.154 1.624.497 2.373.65 1.42 1.738 2.353 3.234 2.801.42.127.856.187 1.293.228.555.053 1.11.06 1.667.06h11.03a12.5 12.5 0 001.57-.1c.822-.106 1.596-.35 2.295-.81a5.046 5.046 0 001.88-2.207c.186-.42.293-.87.37-1.324.113-.675.138-1.358.137-2.04-.002-3.8 0-7.595-.003-11.393zm-6.423 3.99v5.712c0 .417-.058.827-.244 1.206-.29.59-.76.962-1.388 1.14-.35.1-.706.157-1.07.173-.95.045-1.773-.6-1.943-1.536a1.88 1.88 0 011.038-2.022c.323-.16.67-.25 1.018-.324.378-.082.758-.153 1.134-.24.274-.063.457-.23.51-.516a.904.904 0 00.02-.193c0-1.815 0-3.63-.002-5.443a.725.725 0 00-.026-.185c-.04-.15-.15-.243-.304-.234-.16.01-.318.035-.475.066-.76.15-1.52.303-2.28.456l-2.325.47-1.374.278c-.016.003-.032.01-.048.013-.277.077-.377.203-.39.49-.002.042 0 .086 0 .13-.002 2.602 0 5.204-.003 7.805 0 .42-.047.836-.215 1.227-.278.64-.77 1.04-1.434 1.233-.35.1-.71.16-1.075.172-.96.036-1.755-.6-1.92-1.544-.14-.812.23-1.685 1.154-2.075.357-.15.73-.232 1.108-.31.287-.06.575-.116.86-.177.383-.083.583-.323.6-.714v-.15c0-2.96 0-5.922.002-8.882 0-.123.013-.25.042-.37.07-.285.273-.448.546-.518.255-.066.515-.112.774-.165.733-.15 1.466-.296 2.2-.444l2.27-.46c.67-.134 1.34-.27 2.01-.403.22-.043.442-.088.663-.106.31-.025.523.17.554.482.008.073.012.148.012.223.002 1.91.002 3.822 0 5.732z"/></symbol>
+  <symbol id="icon-mail" viewBox="0 0 24 24"><path d="M4.5 4h15A2.5 2.5 0 0 1 22 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-15A2.5 2.5 0 0 1 2 17.5v-11A2.5 2.5 0 0 1 4.5 4Zm.53 2 6.53 4.9a1 1 0 0 0 1.2 0L19.28 6H5.03ZM4 8.2V17.5c0 .28.22.5.5.5h15a.5.5 0 0 0 .5-.5V8.2l-6.47 4.86a2.5 2.5 0 0 1-3.06 0L4 8.2Z"/></symbol>
+</svg>
+
+<!-- grain + vignette overlays -->
+<div class="grain" aria-hidden="true"></div>
+<div class="vignette" aria-hidden="true"></div>
+
+<!-- fixed layered background system -->
+<div class="bg-system" aria-hidden="true">
+  <div class="bg-layer bg-photo"></div>
+  <div class="bg-layer bg-fog fog-a"></div>
+  <div class="bg-layer bg-fog fog-b"></div>
+  <div class="bg-layer bg-scanlines"></div>
+  <div class="bg-layer bg-blur" id="scrollBlur"></div>
+</div>
+
+<header class="nav">
+  <a href="#top" class="nav-mark">STLN<span class="dot">.</span></a>
+  <nav class="nav-links">
+    <a href="#about">About</a>
+    <a href="#sets">Live Sets</a>
+    <a href="#music">Music</a>
+    <a href="#shows">Shows</a>
+    <a href="#contact">Booking</a>
+  </nav>
+  <a class="nav-cta" href="mailto:stallonee.contact@gmail.com">Contact</a>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="icon-row reveal">
+      <a class="icon-btn" href="https://youtube.com/@Stallonee" target="_blank" rel="noopener" aria-label="YouTube"><svg><use href="#icon-youtube"></use></svg></a>
+      <a class="icon-btn" href="https://on.soundcloud.com/SRDrslEWyHt9N2o7sE" target="_blank" rel="noopener" aria-label="SoundCloud"><svg><use href="#icon-soundcloud"></use></svg></a>
+      <a class="icon-btn" href="https://open.spotify.com/artist/5XibmF8xmqt7GsgjE0XRFk" target="_blank" rel="noopener" aria-label="Spotify"><svg><use href="#icon-spotify"></use></svg></a>
+      <a class="icon-btn" href="https://music.apple.com/us/artist/stallonee/1589659412" target="_blank" rel="noopener" aria-label="Apple Music"><svg><use href="#icon-applemusic"></use></svg></a>
+      <a class="icon-btn" href="mailto:stallonee.contact@gmail.com" aria-label="Email"><svg><use href="#icon-mail"></use></svg></a>
+    </div>
+    <p class="hero-kicker reveal">LOS ANGELES <span class="sep">/</span> ITALIAN DJ &amp; PRODUCER 🇮🇹</p>
+    <h1 class="hero-title">
+      <span class="stack">
+        <span class="line ghost" aria-hidden="true">STALLONEE</span>
+        <span class="line outline">STALLONEE</span>
+      </span>
+    </h1>
+    <p class="hero-sub reveal">Wavy low end. Ominous atmosphere. Relentless groove.</p>
+    <div class="hero-actions reveal">
+      <a class="btn btn-solid" href="#sets">Hear the sets</a>
+      <a class="btn btn-ghost" href="#contact">Book Stallonee</a>
+    </div>
+    <div class="scroll-cue" aria-hidden="true">
+      <span></span>
+      <em>SCROLL</em>
+    </div>
+  </section>
+
+  <div class="wave-divider" aria-hidden="true">
+    <svg viewBox="0 0 1200 80" preserveAspectRatio="none">
+      <path class="wave-path" d="M0,40 C 100,10 200,70 300,40 C 400,10 500,70 600,40 C 700,10 800,70 900,40 C 1000,10 1100,70 1200,40" />
+    </svg>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="about-grid">
+      <div class="about-photo overlap reveal">
+        <div class="photo-frame">
+          <img src="assets/stallonee-profile.jpg" alt="Portrait of Stallonee" loading="lazy" />
+        </div>
+        <span class="photo-tag">LA &middot; 🇮🇹</span>
+      </div>
+      <div class="about-copy reveal">
+        <p class="eyebrow">Profile</p>
+        <h2 class="heading-solid">The Story</h2>
+        <p class="body-lg">
+          STALLONEE is a Los Angeles–based Italian DJ and producer building a
+          sound that sits between euphoric and unsettling — warped basslines,
+          flickering textures, and grooves that don't let go. Raised on Italian
+          club culture and sharpened on LA dance floors, his sets move like a
+          slow-building storm.
+        </p>
+        <p class="body-lg muted">
+          Part of the extended 3PIECE family, with recent shared sets including
+          a run at Catch One LA.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="wave-divider flip" aria-hidden="true">
+    <svg viewBox="0 0 1200 80" preserveAspectRatio="none">
+      <path class="wave-path" d="M0,40 C 100,10 200,70 300,40 C 400,10 500,70 600,40 C 700,10 800,70 900,40 C 1000,10 1100,70 1200,40" />
+    </svg>
+  </div>
+
+  <!-- LIVE SETS -->
+  <section class="section sets" id="sets">
+    <p class="eyebrow reveal">Selected</p>
+    <h2 class="heading-solid reveal">Live Sets</h2>
+    <div class="rule reveal"></div>
+
+    <div class="set-featured reveal">
+      <span class="tag-red">FAVORITE SET YET</span>
+      <h3>CODE RED &mdash; Full Live Set</h3>
+      <p>Recorded 1/23. The set that started it all.</p>
+      <a class="btn btn-solid" href="https://soundcloud.com/theestallonee/stallonee-live-code-red-full-set-012326" target="_blank" rel="noopener">
+        Listen on SoundCloud
+      </a>
+    </div>
+
+    <div class="set-grid">
+      <a class="set-card reveal" href="https://youtu.be/RYOqeKye_fc" target="_blank" rel="noopener">
+        <span class="set-platform">YOUTUBE</span>
+        <h4>Live @ Open Haus</h4>
+        <span class="set-arrow">&rarr;</span>
+      </a>
+      <a class="set-card reveal" href="https://youtu.be/jyFEMffi5Gc" target="_blank" rel="noopener">
+        <span class="set-platform">YOUTUBE</span>
+        <h4>3PIECE Live @ Catch One LA</h4>
+        <span class="set-arrow">&rarr;</span>
+      </a>
+      <a class="set-card reveal" href="https://soundcloud.com/theestallonee/sets/live-sets" target="_blank" rel="noopener">
+        <span class="set-platform">SOUNDCLOUD</span>
+        <h4>STLNEE &mdash; Live Sets</h4>
+        <span class="set-arrow">&rarr;</span>
+      </a>
+    </div>
+  </section>
+
+  <div class="wave-divider" aria-hidden="true">
+    <svg viewBox="0 0 1200 80" preserveAspectRatio="none">
+      <path class="wave-path" d="M0,40 C 100,10 200,70 300,40 C 400,10 500,70 600,40 C 700,10 800,70 900,40 C 1000,10 1100,70 1200,40" />
+    </svg>
+  </div>
+
+  <!-- MUSIC -->
+  <section class="section music" id="music">
+    <p class="eyebrow reveal">Stream</p>
+    <h2 class="heading-solid reveal">Music</h2>
+    <div class="rule reveal"></div>
+    <p class="body-lg reveal muted">Start with the STALLONEE ESSENTIALS playlist, or follow everywhere below.</p>
+
+    <a class="playlist-band reveal" href="https://open.spotify.com/playlist/6I53PgXo7pnmXKUp6Dfjcg" target="_blank" rel="noopener">
+      <span>STALLONEE ESSENTIALS</span>
+      <em>Spotify Playlist &rarr;</em>
+    </a>
+
+    <div class="platform-grid reveal">
+      <a class="platform-btn" href="https://open.spotify.com/artist/5XibmF8xmqt7GsgjE0XRFk" target="_blank" rel="noopener">Spotify</a>
+      <a class="platform-btn" href="https://music.apple.com/us/artist/stallonee/1589659412" target="_blank" rel="noopener">Apple Music</a>
+      <a class="platform-btn" href="https://on.soundcloud.com/SRDrslEWyHt9N2o7sE" target="_blank" rel="noopener">SoundCloud</a>
+      <a class="platform-btn" href="https://youtube.com/@Stallonee" target="_blank" rel="noopener">YouTube</a>
+    </div>
+  </section>
+
+  <div class="wave-divider flip" aria-hidden="true">
+    <svg viewBox="0 0 1200 80" preserveAspectRatio="none">
+      <path class="wave-path" d="M0,40 C 100,10 200,70 300,40 C 400,10 500,70 600,40 C 700,10 800,70 900,40 C 1000,10 1100,70 1200,40" />
+    </svg>
+  </div>
+
+  <!-- SHOWS -->
+  <section class="section shows" id="shows">
+    <div class="shows-inner reveal">
+      <p class="eyebrow">Tour</p>
+      <h2 class="heading-solid">Upcoming Shows</h2>
+      <div class="rule"></div>
+      <p class="body-lg muted">Nothing announced yet &mdash; the next one is coming.</p>
+      <span class="tba-pill">TBA</span>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <p class="eyebrow reveal">Get in touch</p>
+    <h2 class="outline-lg reveal">Book<br />Stallonee</h2>
+    <a class="email-link reveal" href="mailto:stallonee.contact@gmail.com">stallonee.contact@gmail.com</a>
+    <div class="icon-row reveal">
+      <a class="icon-btn" href="https://youtube.com/@Stallonee" target="_blank" rel="noopener" aria-label="YouTube"><svg><use href="#icon-youtube"></use></svg></a>
+      <a class="icon-btn" href="https://on.soundcloud.com/SRDrslEWyHt9N2o7sE" target="_blank" rel="noopener" aria-label="SoundCloud"><svg><use href="#icon-soundcloud"></use></svg></a>
+      <a class="icon-btn" href="https://open.spotify.com/artist/5XibmF8xmqt7GsgjE0XRFk" target="_blank" rel="noopener" aria-label="Spotify"><svg><use href="#icon-spotify"></use></svg></a>
+      <a class="icon-btn" href="https://music.apple.com/us/artist/stallonee/1589659412" target="_blank" rel="noopener" aria-label="Apple Music"><svg><use href="#icon-applemusic"></use></svg></a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>&copy; <span id="year"></span> STALLONEE</span>
+  <span class="footer-loc">Los Angeles, CA</span>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
