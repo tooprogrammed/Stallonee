@@ -23,7 +23,7 @@
   <symbol id="icon-chevron-left" viewBox="0 0 24 24"><path d="M15.5 4.5 7 12l8.5 7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
   <symbol id="icon-chevron-right" viewBox="0 0 24 24"><path d="M8.5 4.5 17 12l-8.5 7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
   <symbol id="icon-play" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5-11-6.5Z"/></symbol>
-  <symbol id="icon-ticket" viewBox="0 0 24 24"><path d="M4 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2a1.5 1.5 0 0 0 0 3v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2a1.5 1.5 0 0 0 0-3V8Z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M14 6v12" stroke="currentColor" stroke-width="1.4" stroke-dasharray="2 2"/></symbol>
+  <symbol id="icon-pin" viewBox="0 0 24 24"><path d="M12 21.5s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="12" cy="9.5" r="2.6" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
 </svg>
 
 <main class="page">
@@ -33,7 +33,15 @@
       <img src="pics/sitting_logo_pic.jpeg" alt="STALLONEE" fetchpriority="high" />
     </h1>
 
-    <p class="tagline reveal">Wavy low end. Ominous atmosphere. Relentless groove.</p>
+    <div class="bio reveal">
+      <!-- <p class="bio-name">STALLONEE</p> -->
+      <p class="bio-loc"><svg><use href="#icon-pin"></use></svg>Los Angeles</p>
+      <p class="bio-text">
+        Italian DJ / Producer<br />
+        all inquiries:<br />
+        <a href="mailto:stallonee.contact@gmail.com">stallonee.contact@gmail.com</a>
+      </p>
+    </div>
 
     <div class="icon-row reveal">
       <a class="icon-btn" href="https://open.spotify.com/artist/5XibmF8xmqt7GsgjE0XRFk" target="_blank" rel="noopener" aria-label="Spotify"><svg><use href="#icon-spotify"></use></svg></a>
@@ -103,23 +111,23 @@
       </div>
       <div class="rail-track" id="sets-track">
         <a class="r-card r-card--video r-card--featured" href="https://soundcloud.com/theestallonee/stallonee-live-code-red-full-set-012326" target="_blank" rel="noopener">
-          <span class="r-video-thumb"><span class="r-play"><svg><use href="#icon-play"></use></svg></span></span>
+          <span class="r-video-thumb"><img src="pics/Sets/CodeRed.png" class="pos-bottom" alt="" loading="lazy" /><span class="r-play"><svg><use href="#icon-play"></use></svg></span></span>
           <span class="tag-red">FAVORITE SET YET</span>
           <span class="r-title">CODE RED &mdash; Full Live Set</span>
           <span class="r-sub">Recorded 1/23 &middot; SoundCloud</span>
         </a>
         <a class="r-card r-card--video" href="https://youtu.be/RYOqeKye_fc" target="_blank" rel="noopener">
-          <span class="r-video-thumb"><span class="r-play"><svg><use href="#icon-play"></use></svg></span></span>
+          <span class="r-video-thumb"><img src="pics/Sets/Openhaus.png" alt="" loading="lazy" /><span class="r-play"><svg><use href="#icon-play"></use></svg></span></span>
           <span class="set-platform">YOUTUBE</span>
           <span class="r-title">Live @ Open Haus</span>
         </a>
         <a class="r-card r-card--video" href="https://youtu.be/jyFEMffi5Gc" target="_blank" rel="noopener">
-          <span class="r-video-thumb"><span class="r-play"><svg><use href="#icon-play"></use></svg></span></span>
+          <span class="r-video-thumb"><img src="pics/Sets/CatchOne.png" alt="" loading="lazy" /><span class="r-play"><svg><use href="#icon-play"></use></svg></span></span>
           <span class="set-platform">YOUTUBE</span>
           <span class="r-title">3PIECE Live @ Catch One LA</span>
         </a>
         <a class="r-card r-card--video" href="https://soundcloud.com/theestallonee/sets/live-sets" target="_blank" rel="noopener">
-          <span class="r-video-thumb"><span class="r-play"><svg><use href="#icon-play"></use></svg></span></span>
+          <span class="r-video-thumb"><img src="pics/Sets/LiveSets.png" class="pos-top" alt="" loading="lazy" /><span class="r-play"><svg><use href="#icon-play"></use></svg></span></span>
           <span class="set-platform">SOUNDCLOUD</span>
           <span class="r-title">STLNEE &mdash; Live Sets</span>
         </a>
